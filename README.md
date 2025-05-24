@@ -1,87 +1,40 @@
-# Welcome to React Router!
+# React Router v7 Starter Template
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A React Router v7 starter template with src folder structure and development-friendly defaults.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## What's Different?
 
-## Features
+This template organizes your code in a familiar src folder structure instead of having the app folder at the project root. It also uses port 3000 (like Create React App/Next.js) instead of the default 5173.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 🏗️ Project Structure
 
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
+```
+react-router-v7-starter/
+├── src/
+│   ├── app/
+│   │   ├── routes/
+│   │   ├── root.tsx
+│   │   └── ...
+│   └── ...
+├── react-router.config.ts
+├── vite.config.ts
+├── tsconfig.json
+└── package.json
 ```
 
-### Development
+## 🚀 Getting Started
 
-Start the development server with HMR:
+### Quick Start
 
 ```bash
+git clone https://github.com/hqasmei/react-router-v7-template.git my-new-project
+cd my-new-project
+npm install
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Your application will be available at `http://localhost:3000` (not the default 5173!).
 
-## Building for Production
+### Manual Setup
 
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+If you prefer to set this up yourself, check out my [detailed setup guide](https://hosnaqasmei.com/react-router-v7-setup) that explains each step.
