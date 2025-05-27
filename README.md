@@ -27,7 +27,7 @@ react-router-v7-starter/
 ### Quick Start
 
 ```bash
-git clone https://github.com/hqasmei/react-router-v7-template.git my-new-project
+git clone https://github.com/hqasmei/react-router-v7-starter.git my-new-project
 cd my-new-project
 npm install
 npm run dev
@@ -37,4 +37,4 @@ Your application will be available at `http://localhost:3000` (not the default 5
 
 ### Manual Setup
 
-If you prefer to set this up yourself, check out my [detailed setup guide](https://hosnaqasmei.com/react-router-v7-setup) that explains each step.
+If you prefer to set this up yourself, check out my [detailed setup guide](https://hosnaqasmei.com/react-router-v7-starter) that explains each step.
